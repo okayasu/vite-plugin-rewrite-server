@@ -1,0 +1,34 @@
+{
+  "name": "vite-plugin-rewrite-server",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": "https://github.com/okayasu/vite-plugin-rewrite-server",
+  "author": "okayasu",
+  "license": "MIT",
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "serve",
+    "rewrite"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "connect-history-api-fallback": "^2.0.0",
+    "picocolors": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/connect-history-api-fallback": "^1.5.4",
+    "@types/node": "^20.10.5",
+    "punycode": "^2.3.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10"
+  }
+}
