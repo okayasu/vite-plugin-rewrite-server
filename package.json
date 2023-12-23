@@ -8,7 +8,10 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/okayasu/vite-plugin-rewrite-server",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okayasu/vite-plugin-rewrite-server.git"
+  },
   "author": "okayasu",
   "license": "MIT",
   "keywords": [
